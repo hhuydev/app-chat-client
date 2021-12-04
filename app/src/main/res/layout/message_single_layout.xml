@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_single_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layoutDirection="ltr">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_single_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    <ImageView
+        android:id="@+id/imgMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="150dp"
+        android:maxHeight="150dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:visibility="gone"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@drawable/message_box"
+        android:src="@drawable/ic_baseline_image_24"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:id="@+id/message_single_mess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_box"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:text=""/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Tìm kiếm"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/btn_account"
+        android:title="Tài khoản" />
+    <item
+        android:id="@+id/btn_search"
+        android:title="Tìm kiếm người dùng"/>
+    <item
+        android:id="@+id/btn_createConv"
+        android:title="Tạo phòng chat" />
+    <item
+        android:id="@+id/btn_Admin"
+        android:title="Quản trị viên" />
+    <item
+        android:id="@+id/btn_Logout"
+        android:title="Đăng xuất" />
+
+</menu>
